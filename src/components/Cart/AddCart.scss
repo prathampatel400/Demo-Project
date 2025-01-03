@@ -1,0 +1,62 @@
+
+.MyAddCart {
+  width: 95vw;
+  border: 1px black;
+  margin-left: 70px;
+
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  h1 {
+    color: rgb(15, 13, 16);
+  }
+
+  #clearCartButton {
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    cursor: pointer;
+  }
+  .items {
+    display: flex;
+    // width: 100vw;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .itemsBox {
+      width: 300px;
+      height: 320px;
+      border: 1px solid black;
+      box-shadow: 2px 6px 8px #706f6f;
+      border-radius: 5px;
+
+      .itemBox ul {
+        border: 1px solid black;
+        border-radius: 5px;
+        gap: 10px;
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        // align-items: center;
+        // box-shadow: 2px 8px 10px #888888;
+      }
+      .itemBox button {
+        background-color: #9c9c9f;
+        border-radius: 3px;
+        cursor: pointer;
+        height: 30px;
+        width: 100px;
+        margin-bottom: 8px;
+        color: black;
+      }
+      .itemBox button:hover {
+        background-color: rgb(98, 98, 99);
+      }
+    }
+  }
+}
